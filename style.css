@@ -90,7 +90,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #fff;
+    background: #ffa500;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -285,7 +285,7 @@ nav ul li a:hover::after{
 }
 
 .btn:hover{
-    background: #ffa500;
+    background: #ababab;
 }
 
 
