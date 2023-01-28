@@ -487,30 +487,31 @@ nav i{
     top: 10px;
     left: 20px;
     }
-    .header-text{
-        margin-top: 13%;
-        font-size: 25px;
-        color: #fff;
+.header-text{
+     margin-top: 13%;
+     font-size: 25px;
+     color: #fff;
     }
-    .header-text h1{
-        font-size: 30px;
-        margin-top: 350px;
-        color: #fff;
-
+.header-text h1{
+    font-size: 30px;
+    margin-top: 350px;
+    color: #fff;
     } 
-    .header-text span-1{
-        color: #ffa500;
-        font-size: 10px;
+    
+.header-text span-1{
+    color: #ffa500;
+    font-size: 10px;
     }
     
-    .header-text span-2{
-        font-style: italic;
-        font-size: 10px;
-        color: #fff;
+.header-text span-2{
+    font-style: italic;
+    font-size: 10px;
+    color: #fff;
     }
-    #about{
-        padding: 10px 0;
-        color: #ababab;
+    
+#about{
+    padding: 0px 0;
+    color: #ababab;
     }
 
 .sub-title{
