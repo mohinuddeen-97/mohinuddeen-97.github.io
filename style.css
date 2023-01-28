@@ -103,7 +103,7 @@ nav ul li a:hover::after{
 }
 
 .header-text{
-    margin-top: 13%;
+    margin-top: 15%;
     font-size: 25px;
     color: #fff;
 }
@@ -118,7 +118,8 @@ nav ul li a:hover::after{
 }
 
 .header-text span-1{
-    color: #ffa500;
+    color: #fff;
+    font-size: 20px;
 }
 
 .header-text span-2{
@@ -138,7 +139,7 @@ nav ul li a:hover::after{
 
 
 #about{
-    padding: 80px 0;
+    padding: 70px 0;
     color: #ababab;
 }
 
@@ -398,8 +399,8 @@ nav .fas{
     background-image: url(main-img.png);
     background-repeat: no-repeat;
     position: relative;
-    top: 30px;
-    left: -60px;
+    top: 60px;
+    left: -35px;
     background-size: cover;
     box-shadow: inset 0 0 0 9px rgb(234, 227, 227);
     order: 1;
@@ -430,6 +431,7 @@ nav .fas{
     }
     .header-text h1{
         font-size: 30px;
+        margin-top: 30px;
     }
 
 nav .fas{
@@ -447,7 +449,15 @@ nav ul{
     padding-top: 50px;
     z-index: 2;
     transition: right 0.5s;
-    } 
+    }
+
+    nav .logo-name{
+        position: relative;
+        top: 10px;
+        right: 10px;
+        font-size: 15px;
+        color: #ffa500;
+    }
 
 nav ul li{
     display: block;
@@ -476,6 +486,31 @@ nav i{
     position: relative;
     top: 10px;
     left: 20px;
+    }
+    .header-text{
+        margin-top: 13%;
+        font-size: 25px;
+        color: #fff;
+    }
+    .header-text h1{
+        font-size: 30px;
+        margin-top: 350px;
+        color: #fff;
+
+    } 
+    .header-text span-1{
+        color: #ffa500;
+        font-size: 10px;
+    }
+    
+    .header-text span-2{
+        font-style: italic;
+        font-size: 10px;
+        color: #fff;
+    }
+    #about{
+        padding: 30px 0;
+        color: #ababab;
     }
 
 .sub-title{
