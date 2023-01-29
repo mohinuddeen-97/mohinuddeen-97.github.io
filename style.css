@@ -9,7 +9,7 @@ html{
     scroll-behavior: smooth;
 }
 body {
-    background-color: #000000;
+    background-color: #fff;
     color: #fff;
 }
 
@@ -30,7 +30,7 @@ body {
     top: 100px;
     left: -5px;
     background-size: cover;
-    box-shadow: inset 0 0 0 9px rgb(234, 227, 227);
+    box-shadow: inset 0 0 0 9px rgb(0, 0, 0);
     order: 1;
     justify-self: center;
     width: 400px;
@@ -69,7 +69,7 @@ nav .logo-name{
     position: relative;
     top: 1px;
     font-size: 20px;
-    color: #ffa500;
+    color: #000000;
 }
 
 nav ul li{
@@ -79,7 +79,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-size: 20px;
     position: relative;
@@ -90,7 +90,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ffa500;
+    background: #000000;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -105,7 +105,7 @@ nav ul li a:hover::after{
 .header-text{
     margin-top: 15%;
     font-size: 25px;
-    color: #fff;
+    color: #000000;
 }
 
 .header-text h1{
@@ -114,18 +114,18 @@ nav ul li a:hover::after{
 }
 
 .header-text h1 span{
-    color: #ffa500;
+    color: #000000;
 }
 
 .header-text span-1{
-    color: #fff;
-    font-size: 20px;
+    color: #000000;
+    font-size: 15px;
 }
 
 .header-text span-2{
     font-style: italic;
     font-size: 12px;
-    color: #ffa500;
+    color: #000000;
 }
 
 
@@ -140,7 +140,7 @@ nav ul li a:hover::after{
 
 #about{
     padding: 70px 0;
-    color: #ababab;
+    color: #000000;
 }
 
 .row{
@@ -156,7 +156,7 @@ nav ul li a:hover::after{
 .sub-title {
     font-size: 60px;
     font-weight: 600;
-    color: #ffa500;
+    color: #000000;
     margin-bottom: 10px;
 }
 
@@ -177,7 +177,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ffa500;
+    background: #000000;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -195,7 +195,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span{
-    color: #ffa500;
+    color: #000000;
     font-size: 14px;
 }
 
@@ -218,7 +218,7 @@ nav ul li a:hover::after{
 
 
 #Services{
-    padding: 0px 0;
+    padding: 30px 0;
 }
 
 .services-list{
@@ -229,7 +229,7 @@ nav ul li a:hover::after{
 }
 
 .services-list div{
-    background: #262626;
+    background: #ababab;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -259,7 +259,7 @@ nav ul li a:hover::after{
 }
 
 .services-list div:hover{
-    background: #ffa500;
+    background: #000000;
     transform: translateY(-10px);
 }
 
@@ -282,6 +282,7 @@ nav ul li a:hover::after{
     text-decoration: none;
     color:#fff;
     transition: background 0.5s;
+    background-color: #000000;
 }
 
 .btn:hover{
@@ -307,10 +308,11 @@ nav ul li a:hover::after{
 
 .contact-left p{
     margin-top: 30px;
+    color: #000000;
 }
 
 .contact-left p i{
-    color: #ababab;
+    color: #000000;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -323,18 +325,18 @@ nav ul li a:hover::after{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    color: #ababab;
+    color: #000000;
     display: inline-block;
 }
 
 .social-icons a:hover{
-    color: #ababab;
+    color: #000000;
     transform: translateY(-5px);   
 }
 
 .btn.btn2{
     display: inline-block;
-    background:#ffa500;
+    background:#000000;
 }
 
 .contact-right form{
@@ -345,7 +347,7 @@ form input, form textarea{
     width: 100%;
     border: 0;
     outline: none;
-    background: #262626;
+    background: #000000;
     padding: 15px;
     margin: 15px 0;
     color: #fff;
@@ -364,7 +366,7 @@ form btn2{
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #262626;
+    background: #2a2a2a;
     font-size:300;
     margin-top: 20px;
 }
@@ -399,7 +401,7 @@ nav .fas{
     background-image: url(main-img.png);
     background-repeat: no-repeat;
     position: relative;
-    top: 60px;
+    top: 80px;
     left: -35px;
     background-size: cover;
     box-shadow: inset 0 0 0 9px rgb(234, 227, 227);
@@ -437,10 +439,11 @@ nav .fas{
 nav .fas{
     display:block;
     font-size: 25px;
+    color: #000000;
     }
 
 nav ul{
-    background: #000000;
+    background: #fff;
     position: fixed;
     top: 0;
     right: -200px;
@@ -456,7 +459,7 @@ nav ul{
         top: 10px;
         right: 10px;
         font-size: 15px;
-        color: #ffa500;
+        color: #000000;
     }
 
 nav ul li{
@@ -468,7 +471,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #ffa500;
+    background: #000000;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -487,31 +490,34 @@ nav i{
     top: 10px;
     left: 20px;
     }
+
 .header-text{
-     margin-top: 13%;
-     font-size: 25px;
-     color: #fff;
+    margin-top: 13%;
+    font-size: 25px;
+    color: #000000;
     }
+
 .header-text h1{
     font-size: 30px;
     margin-top: 350px;
-    color: #fff;
+    color: #000000;
+
     } 
-    
+
 .header-text span-1{
-    color: #ffa500;
+    color: #000000;
     font-size: 10px;
     }
     
 .header-text span-2{
     font-style: italic;
     font-size: 10px;
-    color: #fff;
+    color: #000000;
     }
-    
+
 #about{
     margin-top: -170px;
-    color: #ababab;
+    color: #000000;
     }
 
 .sub-title{
